@@ -48,13 +48,13 @@ function Navbar() {
                 </Button>
               </Link>
               <Link
-                to='/workingOn'
+                to='/skills'
                 style={{
                   textDecoration: 'none'
                 }}
               >
                 <Button sx={{ my: 2, color: 'white', display: 'block' }}>
-                  Working on
+                  Skills
                 </Button>
               </Link>
               <Link
