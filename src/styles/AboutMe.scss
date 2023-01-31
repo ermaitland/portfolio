@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.aboutMe {
+  background-color: #607d8b;
+  height: 110vh;
+  .title {
+    font-size: 30px;
+    padding-left: 17%;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .card {
+    background-color: #cfd8dc;
+    color: black;
+  }
+}

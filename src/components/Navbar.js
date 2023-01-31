@@ -1,9 +1,6 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import { AppBar, Box, Toolbar, Typography, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 import '../styles/Home.scss';
 
 function Navbar() {
@@ -30,15 +27,46 @@ function Navbar() {
               Eleanor Maitland
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-              <Button sx={{ my: 2, color: 'white', display: 'block' }}>
-                About Me
-              </Button>
-              <Button sx={{ my: 2, color: 'white', display: 'block' }}>
-                Projects
-              </Button>
-              <Button sx={{ my: 2, color: 'white', display: 'block' }}>
-                Working on
-              </Button>
+              <Link
+                to='/aboutMe'
+                style={{
+                  textDecoration: 'none'
+                }}
+              >
+                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                  About Me
+                </Button>
+              </Link>
+              <Link
+                to='/projects'
+                style={{
+                  textDecoration: 'none'
+                }}
+              >
+                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                  Projects
+                </Button>
+              </Link>
+              <Link
+                to='/workingOn'
+                style={{
+                  textDecoration: 'none'
+                }}
+              >
+                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                  Working on
+                </Button>
+              </Link>
+              <Link
+                to='/contact'
+                style={{
+                  textDecoration: 'none'
+                }}
+              >
+                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                  Contact
+                </Button>
+              </Link>
             </Box>
           </Toolbar>
         </section>
