@@ -7,7 +7,7 @@ import earlyYears from '../assets/1999.png';
 import school from '../assets/2000.png';
 import brain from '../assets/2021.png';
 import chill from '../assets/2022.png';
-import '../styles/AboutMe.scss';
+import '../styles/main.scss';
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -16,7 +16,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 export default function AboutMe() {
   return (
-    <section className='aboutMe'>
+    <section className='aboutMe' id='aboutMe'>
       <Typography className='title' sx={{ mb: 10, textAlign: 'center' }}>
         All about Eleanor Maitland...
       </Typography>

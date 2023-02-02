@@ -1,11 +1,11 @@
 import { Card, CardContent, Typography, Container, Grid } from '@mui/material';
 import LinkedIn from '../assets/LinkedIn.png';
 import GitHub from '../assets/github.png';
-import '../styles/Contact.scss';
+import '../styles/main.scss';
 
 export default function Contact() {
   return (
-    <section className='contact-info'>
+    <section className='contact' id='contact'>
       <Container maxWidth='lg' sx={{ pt: 20 }}>
         <Grid
           container
@@ -42,7 +42,7 @@ export default function Contact() {
             </Card>
           </Grid>
           <Grid item xs={4}>
-            <Card sx={{ minWidth: 275, pb: 0.5 }} className='card'>
+            <Card sx={{ minWidth: 275, pb: 0.05 }} className='card'>
               <CardContent
                 sx={{
                   display: 'flex',

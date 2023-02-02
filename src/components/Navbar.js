@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { AppBar, Box, Toolbar, Typography, Button } from '@mui/material';
-import { Link } from 'react-router-dom';
-import '../styles/Home.scss';
+import { Link } from 'react-scroll';
+import '../styles/main.scss';
 
 function Navbar() {
   return (
@@ -13,7 +13,6 @@ function Navbar() {
               variant='h6'
               noWrap
               component='a'
-              href='/'
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
@@ -28,7 +27,7 @@ function Navbar() {
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <Link
-                to='/aboutMe'
+                to='aboutMe'
                 style={{
                   textDecoration: 'none'
                 }}
@@ -37,8 +36,8 @@ function Navbar() {
                   About Me
                 </Button>
               </Link>
-              <Link
-                to='/projects'
+              {/* <Link
+                to='#projects'
                 style={{
                   textDecoration: 'none'
                 }}
@@ -46,9 +45,9 @@ function Navbar() {
                 <Button sx={{ my: 2, color: 'white', display: 'block' }}>
                   Projects
                 </Button>
-              </Link>
+              </Link> */}
               <Link
-                to='/skills'
+                to='skills'
                 style={{
                   textDecoration: 'none'
                 }}
@@ -58,7 +57,7 @@ function Navbar() {
                 </Button>
               </Link>
               <Link
-                to='/contact'
+                to='contact'
                 style={{
                   textDecoration: 'none'
                 }}
