@@ -36,16 +36,6 @@ function Navbar() {
                   About Me
                 </Button>
               </Link>
-              {/* <Link
-                to='#projects'
-                style={{
-                  textDecoration: 'none'
-                }}
-              >
-                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
-                  Projects
-                </Button>
-              </Link> */}
               <Link
                 to='skills'
                 style={{
@@ -54,6 +44,16 @@ function Navbar() {
               >
                 <Button sx={{ my: 2, color: 'white', display: 'block' }}>
                   Skills
+                </Button>
+              </Link>{' '}
+              <Link
+                to='projects'
+                style={{
+                  textDecoration: 'none'
+                }}
+              >
+                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                  Projects
                 </Button>
               </Link>
               <Link

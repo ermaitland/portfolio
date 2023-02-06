@@ -1,17 +1,16 @@
 import '../styles/main.scss';
-import { Typography, Container, Grid, Card } from '@mui/material';
-import html from '../assets/HTML-5.png';
-import css from '../assets/CSS.png';
+import { Typography, Container, Grid } from '@mui/material';
+import htmlcss from '../assets/html_css.jpeg';
 import sass from '../assets/sass.png';
-import bulma from '../assets/Bulma.png';
+import bulma from '../assets/bulma.png';
 import mui from '../assets/mui.png';
 import javascript from '../assets/JavaScript.png';
 import react from '../assets/React.png';
-import cloudinary from '../assets/Cloudinary.png';
+import cloudinary from '../assets/cloudinary.png';
 
-import mongoDB from '../assets/monogoDB.png';
+import mongoDB from '../assets/mongoDB.png';
 import mongoose from '../assets/mongoose.png';
-import node from '../assets/node.png';
+import node from '../assets/node.jpeg';
 import express from '../assets/express.png';
 import django from '../assets/django.png';
 import python from '../assets/python.png';
@@ -19,7 +18,7 @@ import npm from '../assets/npm.png';
 import pip from '../assets/pip.png';
 import postgresql from '../assets/Postgresql.png';
 import postman from '../assets/postman.png';
-import JSON from '../assets/JSON.jpeg';
+import JSON from '../assets/JSON.png';
 import tableplus from '../assets/tablePlus.png';
 
 import git from '../assets/git.png';
@@ -33,12 +32,8 @@ import heroku from '../assets/heroku.png';
 export default function Skills() {
   const frontendSkills = [
     {
-      name: 'HTML',
-      image: html
-    },
-    {
-      name: 'CSS',
-      image: css
+      name: 'HTML and CSS',
+      image: htmlcss
     },
     {
       name: 'SCSS',
@@ -166,14 +161,14 @@ export default function Skills() {
           }}
         >
           {frontendSkills.map((skill) => (
-            <Grid item sx={4}>
+            <Grid item sx={{ pr: 5, pl: 5, pb: 3 }}>
               <img src={skill.image} alt={skill.name} className='img' />
               <Typography sx={{ textAlign: 'center' }}>{skill.name}</Typography>
             </Grid>
           ))}
         </Grid>
         <Typography
-          sx={{ fontSize: 24, textAlign: 'center' }}
+          sx={{ fontSize: 24, textAlign: 'center', mt: 5 }}
           color='text.secondary'
           gutterBottom
         >
@@ -188,36 +183,14 @@ export default function Skills() {
           }}
         >
           {backendSkills.map((skill) => (
-            <Grid item sx={4}>
+            <Grid item sx={{ pr: 5, pl: 5, pb: 3 }}>
               <img src={skill.image} alt={skill.name} className='img' />
               <Typography sx={{ textAlign: 'center' }}>{skill.name}</Typography>
             </Grid>
           ))}
         </Grid>
         <Typography
-          sx={{ fontSize: 24, textAlign: 'center' }}
-          color='text.secondary'
-          gutterBottom
-        >
-          Version Control:
-        </Typography>
-        <Grid
-          sx={{
-            display: 'flex',
-            flexDirection: 'row',
-            flexWrap: 'wrap',
-            justifyContent: 'center'
-          }}
-        >
-          {versionControl.map((skill) => (
-            <Grid item sx={4}>
-              <img src={skill.image} alt={skill.name} className='img' />
-              <Typography sx={{ textAlign: 'center' }}>{skill.name}</Typography>
-            </Grid>
-          ))}
-        </Grid>
-        <Typography
-          sx={{ fontSize: 24, textAlign: 'center' }}
+          sx={{ fontSize: 24, textAlign: 'center', mt: 5 }}
           color='text.secondary'
           gutterBottom
         >
@@ -232,7 +205,29 @@ export default function Skills() {
           }}
         >
           {otherTechnologies.map((skill) => (
-            <Grid item sx={4}>
+            <Grid item sx={{ pr: 5, pl: 5, pb: 3 }}>
+              <img src={skill.image} alt={skill.name} className='img' />
+              <Typography sx={{ textAlign: 'center' }}>{skill.name}</Typography>
+            </Grid>
+          ))}
+        </Grid>
+        <Typography
+          sx={{ fontSize: 24, textAlign: 'center', mt: 5 }}
+          color='text.secondary'
+          gutterBottom
+        >
+          Version Control:
+        </Typography>
+        <Grid
+          sx={{
+            display: 'flex',
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            justifyContent: 'center'
+          }}
+        >
+          {versionControl.map((skill) => (
+            <Grid item sx={{ pr: 5, pl: 5, pb: 3 }}>
               <img src={skill.image} alt={skill.name} className='img' />
               <Typography sx={{ textAlign: 'center' }}>{skill.name}</Typography>
             </Grid>
