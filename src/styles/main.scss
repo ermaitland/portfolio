@@ -13,7 +13,9 @@
 }
 .navbar {
   background-color: #607d8b;
+  position: fixed;
   padding-left: 1%;
+  width: 100vw;
   padding-top: 0%;
   margin-top: 0;
 }
@@ -36,6 +38,7 @@
   height: 100%;
   margin-bottom: 0px;
   padding-bottom: 0px;
+
   .title {
     font-size: 30px;
     font-family: 'Roboto Mono', monospace;
@@ -43,6 +46,7 @@
   .card {
     background-color: #cfd8dc;
     color: black;
+    font-family: 'Roboto Mono', monospace;
   }
 }
 
@@ -53,6 +57,7 @@
   padding-top: 0%;
   .p {
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
   }
   .img {
     height: 95px;
@@ -64,6 +69,7 @@
   .skill-container {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
   }
 }
 
@@ -87,9 +93,11 @@
       margin-left: 20px;
       color: white;
       font-size: 20px;
+      font-family: 'Roboto Mono', monospace;
     }
     a {
       margin-left: 20px;
+      font-family: 'Roboto Mono', monospace;
     }
     .project-description {
       display: flex;

@@ -72,11 +72,13 @@ export default function TextMobileStepper() {
             alignItems: 'center',
             height: 50,
             pl: 2,
-            bgcolor: '#57a0c5',
+            bgcolor: '#607d8b',
             ml: 2
           }}
         >
-          <Typography>{steps[activeStep].label}</Typography>
+          <Typography sx={{ fontSize: 18, color: 'white' }}>
+            {steps[activeStep].label}
+          </Typography>
         </Paper>
         <Box sx={{ height: 255, maxWidth: 400, width: '100%', p: 2 }}>
           <section className='internal-text-projects'>

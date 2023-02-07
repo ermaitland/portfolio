@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 export default function Home() {
   return (
     <section className='Home' id='home'>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className='HomeText'>
         <Typewriter
           onInit={(typewriter) => {
