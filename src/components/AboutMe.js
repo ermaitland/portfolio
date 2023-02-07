@@ -131,7 +131,9 @@ export default function AboutMe() {
                   Assembly. I immediately fell in love with coding, it doesn't
                   feel like a chore it genuinely feels fun. My recovery has gone
                   better than I could have hoped and even though its been tough
-                  it has taught me so much about who I am as a person.
+                  it has taught me so much about who I am as a person. I find
+                  the constant evolution of the tech world so exciting and I
+                  can’t wait to continue to learn and push myself in the future!
                 </Typography>
               </CardContent>
             </Box>
@@ -143,44 +145,6 @@ export default function AboutMe() {
             />
           </Card>
         </VerticalTimelineElement>
-        {/* <VerticalTimelineElement
-          className='vertical-timeline-element--education'
-          date='April 2013'
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-        >
-          <h3 className='vertical-timeline-element-title'>
-            Content Marketing for Web, Mobile and Social Media
-          </h3>
-          <h4 className='vertical-timeline-element-subtitle'>Online Course</h4>
-          <p>Strategy, Social Media</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className='vertical-timeline-element--education'
-          date='November 2012'
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-        >
-          <h3 className='vertical-timeline-element-title'>
-            Agile Development Scrum Master
-          </h3>
-          <h4 className='vertical-timeline-element-subtitle'>Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className='vertical-timeline-element--education'
-          date='2002 - 2006'
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-        >
-          <h3 className='vertical-timeline-element-title'>
-            Bachelor of Science in Interactive Digital Media Visual Imaging
-          </h3>
-          <h4 className='vertical-timeline-element-subtitle'>
-            Bachelor Degree
-          </h4>
-          <p>Creative Direction, Visual Design</p>
-        </VerticalTimelineElement> */}
-        <VerticalTimelineElement
-          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-        />
       </VerticalTimeline>
     </section>
   );
