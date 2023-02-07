@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.Home {
+  background-color: #607d8b;
+  height: 100vh;
+  .HomeText {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Roboto Mono', monospace;
+  }
+}
+.navbar {
+  background-color: #607d8b;
+  position: fixed;
+  padding-left: 1%;
+  width: 100vw;
+  padding-top: 0%;
+  margin-top: 0;
+}
+
+.contact {
+  background-color: #607d8b;
+  height: 100vh;
+  padding-left: 20%;
+  .card {
+    background-color: #cfd8dc;
+  }
+  .img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.aboutMe {
+  background-color: #607d8b;
+  height: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+  .title {
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .card {
+    background-color: #cfd8dc;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+  }
+}
+
+.skills {
+  background-color: #607d8b;
+  height: 175vh;
+  margin-top: 0%;
+  padding-top: 0%;
+  .p {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .img {
+    height: 95px;
+    width: 105px;
+    padding-left: 5;
+    border-radius: 50px;
+    border: 0.5px solid black;
+  }
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+  }
+}
+
+.Projects {
+  background-color: #607d8b;
+  height: 100vh;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  justify-content: center;
+  padding-right: 40%;
+  .projectImage {
+    max-height: 600px;
+  }
+  .internal-text-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p {
+      width: 400px;
+      margin-left: 20px;
+      color: white;
+      font-size: 20px;
+      font-family: 'Roboto Mono', monospace;
+    }
+    a {
+      margin-left: 20px;
+      font-family: 'Roboto Mono', monospace;
+    }
+    .project-description {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .project-buttons {
+    align-items: center;
+    align-self: center;
+  }
+}
