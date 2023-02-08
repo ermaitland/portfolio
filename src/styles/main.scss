@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 .Home {
   background-color: #607d8b;
@@ -98,6 +97,12 @@
     a {
       margin-left: 20px;
       font-family: 'Roboto Mono', monospace;
+      text-decoration: none;
+      color: 'black';
+      font-size: 18px;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     .project-description {
       display: flex;

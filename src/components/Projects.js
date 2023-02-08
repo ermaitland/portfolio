@@ -20,7 +20,9 @@ const steps = [
     about:
       'This was a solo project. I had one week to produce a full-stack application using Django for the back-end and React.js for the front-end. I was responsible for all aspects of the project, and due to the short timeline, this required a very structured plan. The front-end was deployed via Netlify and the back-end via Heroku.',
     link: 'https://medichecker.netlify.app/',
-    link_text: 'MediChecker'
+    link_text: 'MediChecker',
+    readMe: 'https://github.com/ermaitland/ga-project-4-backend',
+    readMe_text: 'Repo'
   },
   {
     label: 'Vegan Products - Project 3',
@@ -28,7 +30,9 @@ const steps = [
     about:
       'This was a group project of three people. We had one week to build a full-stack application using MongoDB for the back-end with React.js for the front-end. I was in charge of the Users, which included the authentication process and the reviews which was creating, editing and deleting reviews. I carried these through to the front-end and also did the front-end for the home page and navbar. The front-end was deployed via Netlify, and the backend via Heroku.',
     link: 'https://vegan-products.netlify.app/',
-    link_text: 'Vegan Products'
+    link_text: 'Vegan Products',
+    readMe: 'https://github.com/ermaitland/ga-project-3-backend',
+    readMe_text: 'Repo'
   },
   {
     label: 'Explore Makeup - Project-2',
@@ -36,7 +40,9 @@ const steps = [
     about:
       'This project was a paired project. We had 48h to create a React.js application using a public API. This was the first experience working with multiple people on the same repository, and dividing the tasks up in order to complete the brief within the time frame. I focused on the ProductIndex, ProductCard, API and the spinner. We used Sass, Bulma, React.js, and for version control we used Git and GitHub, and other programs included Postman. This was deployed via Netlify.',
     link: 'https://exploremakeup.netlify.app/',
-    link_text: 'Explore Makeup'
+    link_text: 'Explore Makeup',
+    readMe: 'https://github.com/ermaitland/ga-project-2',
+    readMe_text: 'Repo'
   },
   {
     label: 'Frog Games - Project-1',
@@ -44,7 +50,9 @@ const steps = [
     about:
       'This project brief was to create a game individually using HTML, CSS, and JavaScript. For version control I used Git and GitHub. I had a week to complete this project.',
     link: 'https://ermaitland.github.io/ga-project-1/',
-    link_text: 'Frog Games'
+    link_text: 'Frog Games',
+    readMe: 'https://github.com/ermaitland/ga-project-1',
+    readMe_text: 'Repo'
   }
 ];
 
@@ -72,11 +80,12 @@ export default function TextMobileStepper() {
             alignItems: 'center',
             height: 50,
             pl: 2,
-            bgcolor: '#607d8b',
-            ml: 2
+            bgcolor: '#607d8b'
           }}
         >
-          <Typography sx={{ fontSize: 18, color: 'white' }}>
+          <Typography
+            sx={{ fontSize: 18, color: 'white', fontFamily: 'monospace' }}
+          >
             {steps[activeStep].label}
           </Typography>
         </Paper>
@@ -91,6 +100,13 @@ export default function TextMobileStepper() {
               <p>{steps[activeStep].about}</p>
               <a href={steps[activeStep].link} target='blank' className='link'>
                 {steps[activeStep].link_text}
+              </a>
+              <a
+                href={steps[activeStep].readMe}
+                target='blank'
+                className='link'
+              >
+                {steps[activeStep].readMe_text}
               </a>
             </section>
           </section>

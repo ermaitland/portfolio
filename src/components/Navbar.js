@@ -32,7 +32,14 @@ function Navbar() {
                   textDecoration: 'none'
                 }}
               >
-                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                <Button
+                  sx={{
+                    my: 2,
+                    color: 'white',
+                    display: 'block',
+                    fontFamily: 'monospace'
+                  }}
+                >
                   About Me
                 </Button>
               </Link>
@@ -42,7 +49,14 @@ function Navbar() {
                   textDecoration: 'none'
                 }}
               >
-                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                <Button
+                  sx={{
+                    my: 2,
+                    color: 'white',
+                    display: 'block',
+                    fontFamily: 'monospace'
+                  }}
+                >
                   Skills
                 </Button>
               </Link>{' '}
@@ -52,7 +66,14 @@ function Navbar() {
                   textDecoration: 'none'
                 }}
               >
-                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                <Button
+                  sx={{
+                    my: 2,
+                    color: 'white',
+                    display: 'block',
+                    fontFamily: 'monospace'
+                  }}
+                >
                   Projects
                 </Button>
               </Link>
@@ -62,7 +83,14 @@ function Navbar() {
                   textDecoration: 'none'
                 }}
               >
-                <Button sx={{ my: 2, color: 'white', display: 'block' }}>
+                <Button
+                  sx={{
+                    my: 2,
+                    color: 'white',
+                    display: 'block',
+                    fontFamily: 'monospace'
+                  }}
+                >
                   Contact
                 </Button>
               </Link>

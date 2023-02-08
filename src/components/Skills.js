@@ -2,11 +2,11 @@ import '../styles/main.scss';
 import { Typography, Container, Grid } from '@mui/material';
 import htmlcss from '../assets/html_css.jpeg';
 import sass from '../assets/sass.png';
-import bulma from '../assets/bulma.png';
+import bulma from '../assets/Bulma.png';
 import mui from '../assets/mui.png';
 import javascript from '../assets/JavaScript.png';
 import react from '../assets/React.png';
-import cloudinary from '../assets/cloudinary.png';
+import cloudinary from '../assets/Cloudinary.png';
 
 import mongoDB from '../assets/mongoDB.png';
 import mongoose from '../assets/mongoose.png';
@@ -146,7 +146,7 @@ export default function Skills() {
     <section className='skills' id='skills'>
       <Container maxWidth='lg' sx={{ pt: 20 }} className='skill-container'>
         <Typography
-          sx={{ fontSize: 24, textAlign: 'center' }}
+          sx={{ fontSize: 24, textAlign: 'center', fontFamily: 'monospace' }}
           color='text.secondary'
           gutterBottom
         >
@@ -168,7 +168,12 @@ export default function Skills() {
           ))}
         </Grid>
         <Typography
-          sx={{ fontSize: 24, textAlign: 'center', mt: 5 }}
+          sx={{
+            fontSize: 24,
+            textAlign: 'center',
+            mt: 5,
+            fontFamily: 'monospace'
+          }}
           color='text.secondary'
           gutterBottom
         >
@@ -190,7 +195,12 @@ export default function Skills() {
           ))}
         </Grid>
         <Typography
-          sx={{ fontSize: 24, textAlign: 'center', mt: 5 }}
+          sx={{
+            fontSize: 24,
+            textAlign: 'center',
+            mt: 5,
+            fontFamily: 'monospace'
+          }}
           color='text.secondary'
           gutterBottom
         >
@@ -212,7 +222,12 @@ export default function Skills() {
           ))}
         </Grid>
         <Typography
-          sx={{ fontSize: 24, textAlign: 'center', mt: 5 }}
+          sx={{
+            fontSize: 24,
+            textAlign: 'center',
+            mt: 5,
+            fontFamily: 'monospace'
+          }}
           color='text.secondary'
           gutterBottom
         >

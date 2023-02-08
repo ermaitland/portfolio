@@ -37,7 +37,7 @@ export default function AboutMe() {
               <CardContent sx={{ flex: '1 0 auto' }}>
                 <Typography variant='subtitle1' component='div' fontSize={15}>
                   I was born and grew up in a small village near Oxford. I'm the
-                  yougest of three which gave me a lot of character building...
+                  youngest of three which gave me a lot of character building...
                   I'd like to add we are now great friends!
                 </Typography>
               </CardContent>
@@ -61,16 +61,16 @@ export default function AboutMe() {
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
               <CardContent sx={{ flex: '1 0 auto' }}>
                 <Typography variant='subtitle1' component='div' fontSize={15}>
-                  I went to school in the center of Oxford where I made some of
-                  my oldest and closest friends. At this point in my life I was
+                  I went to school in the centre of Oxford where I made some of
+                  my oldest and closest friends. At this point in my life, I was
                   quite sporty, unfortunately this sporting ability has
-                  deminished over the years. I managed to bring it back slightly
-                  during my time at Birmingham University, I did triathalon
+                  diminished over the years. I managed to bring it back slightly
+                  during my time at Birmingham University, I did triathlon
                   training as well as pole fitness! During the summer of my
                   first year at Uni studying Chemistry, I did a research project
-                  at Oxford university in the BioChemistry department. That was
-                  new experiance and it taught me how much I love to push myself
-                  and expand my knowledge.
+                  at Oxford university in the Biochemistry department. That was
+                  a new experience and it taught me how much I love to push
+                  myself and expand my knowledge.
                 </Typography>
               </CardContent>
             </Box>
@@ -95,11 +95,11 @@ export default function AboutMe() {
                 <Typography variant='subtitle1' component='div' fontSize={15}>
                   Then it was my twenties. Usually this is a time of fun and
                   stupid mistakes but for me it was slightly different. At 21 I
-                  was diagnosed with Bipolar, this was during my final reasearch
+                  was diagnosed with Bipolar, this was during my final research
                   project for my masters. I did manage to finish it but I
                   thought that would be the hardest thing I had to do... but
-                  then, when I was 27, I self diagnosed from a medical tutorial
-                  I was facilitating, with Cushings disease. This is a rare
+                  then, when I was 27, I self-diagnosed from a medical tutorial
+                  I was facilitating, with Cushing’s disease. This is a rare
                   endocrine disease caused by a pituitary tumour, which is
                   located at the base of the brain. For me this tumour was also
                   touching my optic nerve so it was straight into brain surgery
@@ -130,7 +130,7 @@ export default function AboutMe() {
                   But.... just 8 months after brain surgery I started General
                   Assembly. I immediately fell in love with coding, it doesn't
                   feel like a chore it genuinely feels fun. My recovery has gone
-                  better than I could have hoped and even though its been tough
+                  better than I could have hoped and even though it’s been tough
                   it has taught me so much about who I am as a person. I find
                   the constant evolution of the tech world so exciting and I
                   can’t wait to continue to learn and push myself in the future!
