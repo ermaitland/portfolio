@@ -11,7 +11,7 @@ function Navbar() {
           <Toolbar disableGutters>
             <Typography
               variant='h6'
-              noWrap
+              // noWrap
               component='a'
               sx={{
                 mr: 2,
@@ -20,12 +20,13 @@ function Navbar() {
                 fontWeight: 700,
                 letterSpacing: '.3rem',
                 color: 'inherit',
-                textDecoration: 'none'
+                textDecoration: 'none',
+                pr: 2
               }}
             >
               Eleanor Maitland
             </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            <Box sx={{ flexGrow: 1, display: { md: 'flex', xs: 'flex' } }}>
               <Link
                 to='aboutMe'
                 style={{
@@ -37,7 +38,8 @@ function Navbar() {
                     my: 2,
                     color: 'white',
                     display: 'block',
-                    fontFamily: 'monospace'
+                    fontFamily: 'monospace',
+                    pr: 2
                   }}
                 >
                   About Me
@@ -54,7 +56,8 @@ function Navbar() {
                     my: 2,
                     color: 'white',
                     display: 'block',
-                    fontFamily: 'monospace'
+                    fontFamily: 'monospace',
+                    pr: 2
                   }}
                 >
                   Skills
@@ -71,7 +74,8 @@ function Navbar() {
                     my: 2,
                     color: 'white',
                     display: 'block',
-                    fontFamily: 'monospace'
+                    fontFamily: 'monospace',
+                    pr: 2
                   }}
                 >
                   Projects

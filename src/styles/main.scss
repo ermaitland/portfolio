@@ -10,6 +10,7 @@
     font-family: 'Roboto Mono', monospace;
   }
 }
+
 .navbar {
   background-color: #607d8b;
   position: fixed;
@@ -19,22 +20,10 @@
   margin-top: 0;
 }
 
-.contact {
-  background-color: #607d8b;
-  height: 100vh;
-  padding-left: 20%;
-  .card {
-    background-color: #cfd8dc;
-  }
-  .img {
-    height: 100px;
-    width: 100px;
-  }
-}
-
 .aboutMe {
   background-color: #607d8b;
   height: 100%;
+  padding-top: 5%;
   margin-bottom: 0px;
   padding-bottom: 0px;
 
@@ -75,18 +64,19 @@
 .Projects {
   background-color: #607d8b;
   height: 100vh;
+  width: 100vw;
   margin-top: 0%;
+  padding-top: 5%;
   margin-bottom: 0%;
   display: flex;
   justify-content: center;
-  padding-right: 40%;
   .projectImage {
     max-height: 600px;
   }
   .internal-text-projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     p {
       width: 400px;
       margin-left: 20px;
@@ -112,5 +102,116 @@
   .project-buttons {
     align-items: center;
     align-self: center;
+  }
+}
+
+.contact {
+  background-color: #607d8b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  .contacts-grid {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    background-color: #cfd8dc;
+  }
+  .img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .Home {
+    width: 1770px;
+    margin-right: 0%;
+    .HomeText {
+      padding-top: 40%;
+    }
+  }
+  .navbar {
+    width: 1570px;
+  }
+  .aboutMe {
+    width: 1570px;
+    padding-right: 200px;
+    .title {
+      font-size: 30px;
+      font-family: 'Roboto Mono', monospace;
+    }
+    .card {
+      width: 750px;
+    }
+  }
+  .skills {
+    width: 1770px;
+    .skills-contaier {
+      width: 900px;
+    }
+  }
+  .Projects {
+    width: 1770px;
+    display: flex;
+    justify-content: center;
+    .projectImage {
+      max-height: 500px;
+      padding-top: 25px;
+    }
+    .internal-text-projects {
+      p {
+        width: 400px;
+      }
+    }
+  }
+  .contact {
+    width: 1770px;
+    padding-top: 20%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .Home {
+    width: 1070px;
+    margin-right: 0%;
+    .HomeText {
+      padding-top: 40%;
+    }
+  }
+  .navbar {
+    width: 770px;
+  }
+  .aboutMe {
+    width: 900px;
+    padding-right: 200px;
+    .title {
+      font-size: 30px;
+      font-family: 'Roboto Mono', monospace;
+    }
+    .card {
+      width: 750px;
+    }
+  }
+  .skills {
+    width: 1070px;
+  }
+  .Projects {
+    width: 1070px;
+    display: flex;
+    justify-content: center;
+    .projectImage {
+      max-height: 300px;
+      padding-top: 25px;
+    }
+    .internal-text-projects {
+      p {
+        width: 350px;
+      }
+    }
+  }
+  .contact {
+    width: 1070px;
+    padding-top: 20%;
   }
 }

@@ -14,6 +14,7 @@ export default function Contact() {
             display: 'flex',
             flexDirection: 'row'
           }}
+          className='contacts-grid'
         >
           <Grid item xs={4}>
             <Card sx={{ minWidth: 275 }} className='card'>
@@ -65,7 +66,7 @@ export default function Contact() {
             </Card>
           </Grid>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={4} className='contacts-grid'>
           <Card sx={{ maxWidth: 760, mt: 2 }} className='card'>
             <CardContent
               sx={{
