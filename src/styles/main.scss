@@ -14,6 +14,7 @@
 .navbar {
   background-color: #607d8b;
   position: fixed;
+  z-index: 1;
   padding-left: 1%;
   width: 100vw;
   padding-top: 0%;
@@ -163,6 +164,7 @@
   }
   .skills {
     width: 1770px;
+    padding-bottom: 10px;
     .skills-contaier {
       width: 900px;
     }
@@ -203,11 +205,11 @@
     }
   }
   .navbar {
-    width: 770px;
+    width: 900px;
   }
   .aboutMe {
     width: 900px;
-    padding-right: 200px;
+    padding-right: 170px;
     .title {
       font-size: 30px;
       font-family: 'Roboto Mono', monospace;
