@@ -82,6 +82,23 @@ function Navbar() {
                 </Button>
               </Link>
               <Link
+                to='interests'
+                style={{
+                  textDecoration: 'none'
+                }}
+              >
+                <Button
+                  sx={{
+                    my: 2,
+                    color: 'white',
+                    display: 'block',
+                    fontFamily: 'monospace'
+                  }}
+                >
+                  Interests
+                </Button>
+              </Link>
+              <Link
                 to='contact'
                 style={{
                   textDecoration: 'none'

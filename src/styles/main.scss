@@ -123,6 +123,22 @@
   }
 }
 
+.interests {
+  background-color: #607d8b;
+  height: 100vh;
+  margin-top: 0px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .title {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #607d8b;
+    color: white;
+  }
+}
+
 @media only screen and (max-width: 1050px) {
   .Home {
     width: 1770px;
@@ -169,6 +185,13 @@
     width: 1770px;
     padding-top: 20%;
   }
+  .interests {
+    width: 1770px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 770px) {
@@ -213,6 +236,9 @@
   .contact {
     width: 1070px;
     padding-top: 20%;
+  }
+  .interests {
+    width: 1070px;
   }
 }
 
@@ -266,6 +292,21 @@
       flex-direction: column;
       width: 275px;
       padding-left: 0px;
+    }
+  }
+  .interests {
+    width: 400px;
+    height: 100vh;
+    margin-top: 0px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title {
+      font-size: 16px;
+      font-family: 'Roboto Mono', monospace;
+      background-color: #607d8b;
+      color: white;
     }
   }
 }
