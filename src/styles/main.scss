@@ -215,3 +215,57 @@
     padding-top: 20%;
   }
 }
+
+@media only screen and (max-width: 390px) {
+  .Home {
+    width: 400px;
+    margin-right: 0%;
+    .HomeText {
+      padding-top: 70%;
+    }
+  }
+  .navbar {
+    width: 400px;
+  }
+  .aboutMe {
+    width: 400px;
+    .title {
+      font-size: 30px;
+      font-family: 'Roboto Mono', monospace;
+    }
+    .card {
+      width: 300px;
+      padding-right: 0px;
+      img {
+        display: none;
+      }
+    }
+  }
+  .skills {
+    width: 400px;
+    height: 100%;
+  }
+  .Projects {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    .projectImage {
+      display: none;
+    }
+    .internal-text-projects {
+      p {
+        width: 350px;
+        padding-right: 50px;
+      }
+    }
+  }
+  .contact {
+    width: 400px;
+    .contacts-grid {
+      display: flex;
+      flex-direction: column;
+      width: 275px;
+      padding-left: 0px;
+    }
+  }
+}
