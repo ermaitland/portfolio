@@ -41,7 +41,7 @@
 
 .skills {
   background-color: #607d8b;
-  height: 175vh;
+  height: 175%;
   margin-top: 0%;
   padding-top: 0%;
   .p {
@@ -67,7 +67,7 @@
   height: 100vh;
   width: 100vw;
   margin-top: 0%;
-  padding-top: 5%;
+  padding-top: 15%;
   margin-bottom: 0%;
   display: flex;
   justify-content: center;
@@ -109,6 +109,7 @@
 .contact {
   background-color: #607d8b;
   height: 100vh;
+  padding-top: 20%;
   display: flex;
   justify-content: center;
   .contacts-grid {
@@ -126,9 +127,9 @@
 
 .interests {
   background-color: #607d8b;
-  height: 100vh;
+  height: 100%;
   margin-top: 0px;
-  padding-top: 20px;
+  padding-top: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,7 +254,7 @@
     }
   }
   .navbar {
-    width: 400px;
+    display: none;
   }
   .aboutMe {
     width: 400px;
@@ -293,7 +294,6 @@
       display: flex;
       flex-direction: column;
       width: 275px;
-      padding-left: 0px;
     }
   }
   .interests {
